@@ -3,11 +3,6 @@ body {
     background: linear-gradient(#50C7C7 0%, #388E3C 100%);
 }
 
-img {
-    border-radius: 50%;
-    width: 500px;
-}
-
 .line {
     height: 6px;
     background-color: black;
@@ -57,4 +52,18 @@ p {
 
 html {
     scroll-behavior: smooth;
+}
+
+img {
+    transition: transform .2s;
+    width: 500px;
+    height: 500px;
+}
+
+img:hover {
+    transform: scale(0.9);
+}
+
+#fimg {
+    width: 800px;
 }
