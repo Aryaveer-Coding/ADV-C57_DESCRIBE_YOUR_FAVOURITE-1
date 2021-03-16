@@ -54,3 +54,7 @@ p {
     background-color: pink;
     padding: 20px;
 }
+
+html {
+    scroll-behavior: smooth;
+}
