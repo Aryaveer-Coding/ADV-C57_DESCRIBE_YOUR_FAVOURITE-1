@@ -1,6 +1,6 @@
 body {
     text-align: center;
-    background-color: pink;
+    background: linear-gradient(#50C7C7 0%, #388E3C 100%);
 }
 
 img {
@@ -46,7 +46,11 @@ p {
 }
 
 #welcome {
-     background: linear-gradient(#50C7C7 0%, #388E3C 100%);
-    width: 100%;
-    height: 100%;
+    text-align: center;
+    padding: 70px;
+}
+
+#about {
+    background-color: pink;
+    padding: 20px;
 }
